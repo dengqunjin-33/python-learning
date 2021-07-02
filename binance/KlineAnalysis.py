@@ -5,11 +5,11 @@ import pandas as pd
 import pymysql
 from pymysql.cursors import Cursor
 
-conn = pymysql.connect(host='58.67.156.39',
+conn = pymysql.connect(host='',
                        port=6033,
-                       user='jiyu',
-                       password='jiyu',
-                       database='mw_aitrade',
+                       user='',
+                       password='',
+                       database='',
                        charset='utf8')
 
 search_list = ['0', '30']

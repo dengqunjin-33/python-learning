@@ -25,17 +25,11 @@ POOL = PooledDB(
     maxusage=None,  # 一个链接最多被重复使用的次数，None表示无限制
     setsession=[],  # 开始会话前执行的命令列表。如：["set datestyle to ...", "set time zone ..."]
     ping=0,
-    host='139.159.244.194',
+    host='',
     port=3306,
     user='root',
-    password='abc123456@',
-    database='jinshi',
-    # host='58.67.156.39',
-    # port=6033,
-    # user='jiyu',
-    # password='jiyu',
-    # database='exchange_otc',
-    # charset='utf8'
+    password='',
+    database='',
 )
 
 # 爬取接口地址

@@ -10,11 +10,11 @@ from pymysql.cursors import Cursor
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 显示中文标签
 plt.rcParams['axes.unicode_minus'] = False
 
-conn = pymysql.connect(host='58.67.156.39',
-                       port=6033,
-                       user='jiyu',
-                       password='jiyu',
-                       database='mw_kline',
+conn = pymysql.connect(host='',
+                       port=6379,
+                       user='',
+                       password='',
+                       database='',
                        charset='utf8')
 
 table_dict = {'amount': 3, 'vol': 4, 'open': 5, 'close': 6, 'high': 7, 'low': 8, }

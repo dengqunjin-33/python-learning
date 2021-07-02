@@ -6,12 +6,12 @@ from pymysql.cursors import Cursor
 
 table_dict = {'amount': 3, 'vol': 4, 'open': 5, 'close': 6, 'high': 7, 'low': 8, }
 
-conn = pymysql.connect(host='58.67.156.39',
-                       port=6033,
-                       user='jiyu',
-                       password='jiyu',
-                       database='mw_aitrade',
-                       charset='utf8')
+conn = pymysql.connect(host=' ',
+                       port= 55555,
+                       user=' ',
+                       password=' ',
+                       database=' ',
+                       charset=' ')
 
 
 def getDataList(search_sql: str, search_list: list, field: int):

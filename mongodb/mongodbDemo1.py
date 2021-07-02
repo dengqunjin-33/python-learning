@@ -5,7 +5,7 @@ import pymongo
 # 面向对象的思想
 def openMongodb(dbName, tableName):
     # 创建连接
-    dbClient = pymongo.MongoClient('mongodb://dengqunjin:dengqunjin@101.37.79.120:27017')
+    dbClient = pymongo.MongoClient('')
     # 连接数据库
     db = dbClient[dbName]
     # 连接表

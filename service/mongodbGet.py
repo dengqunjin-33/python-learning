@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get('/test')
 def cal():
-    mongoClient = pymongo.MongoClient('mongodb://data:2020data0414@172.16.10.61:27777')
+    mongoClient = pymongo.MongoClient('m')
 
     myDb = mongoClient['dqj_jinshidata']
     myCol = myDb['news']

@@ -6,7 +6,7 @@ excel = pd.read_excel("C://Users//11469//Downloads//weather_district_id.xlsx",
                       sheelName="eather_district_id",
                       )
 # 创建连接
-myClient = pymongo.MongoClient('mongodb://dengqunjin:dengqunjin@101.37.79.120:27017')
+myClient = pymongo.MongoClient('')
 
 # 连接数据库
 myDb = myClient['dengqunjin']

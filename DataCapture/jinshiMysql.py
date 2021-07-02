@@ -1,6 +1,6 @@
 import pymysql
 
-db = pymysql.connect(host='139.159.244.194', port=3306, user='root', passwd='abc123456@', db='jinshi', charset='utf8')
+db = pymysql.connect(host='', port=3306, user='root', passwd='', db=' ', charset='utf8')
 cursor = db.cursor()
 cursor.execute("select version()")
 # 创建金10数据表sql

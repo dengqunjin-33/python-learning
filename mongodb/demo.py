@@ -1,6 +1,6 @@
 import pymongo
 
-myClient = pymongo.MongoClient('mongodb://data:80zC7dmVeRxETPyE@172.16.10.102:20024')
+myClient = pymongo.MongoClient('')
 
 accountDb = myClient['f_account']
 

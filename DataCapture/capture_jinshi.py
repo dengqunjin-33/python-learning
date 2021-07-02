@@ -3,7 +3,7 @@ import datetime
 import pymongo
 import requests
 
-dbClient = pymongo.MongoClient('mongodb://data:2020data0414@172.16.10.61:27777')
+dbClient = pymongo.MongoClient('')
 
 myDb = dbClient['dqj_jinshidata']
 myCol = myDb['news']

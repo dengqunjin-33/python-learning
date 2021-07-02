@@ -4,7 +4,7 @@ import pymongo
 import requests
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-dbClient = pymongo.MongoClient('mongodb://data:2020data0414@172.16.10.61:27777')
+dbClient = pymongo.MongoClient(' ')
 
 myDb = dbClient['dqj_jinshidata']
 

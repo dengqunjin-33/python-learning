@@ -2,7 +2,7 @@ import pika
 
 credentials = pika.PlainCredentials('admin', 'admin2020')  # mq用户名和密码
 # 虚拟队列需要指定参数 virtual_host，如果是默认的可以不填。
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='101.37.79.120', port=5672, virtual_host='/test', credentials=credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host=' ', port=5672, virtual_host='/test', credentials=credentials))
 channel = connection.channel()
 # 声明消息队列，消息将在这个队列传递，如不存在，则创建
 result = channel.queue_declare(queue='jinshidata')

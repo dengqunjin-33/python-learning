@@ -1,7 +1,7 @@
 import pymongo
 
 # 创建连接
-myClient = pymongo.MongoClient('mongodb://data:2020data0414@172.16.10.61:27777')
+myClient = pymongo.MongoClient('')
 
 # 连接数据库
 myDb = myClient['fx_account']

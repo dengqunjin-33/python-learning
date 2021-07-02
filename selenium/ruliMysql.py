@@ -1,5 +1,5 @@
 import pymysql
-db = pymysql.connect(host='58.67.156.39', port=6033, user='jiyu', passwd='jiyu', db='exchange_otc', charset='utf8')
+db = pymysql.connect(host=' ', port=6033, user='', passwd='', db='', charset='utf8')
 cursor = db.cursor()
 sql = """
 CREATE TABLE jin_shi_calendar (
